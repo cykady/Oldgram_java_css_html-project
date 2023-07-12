@@ -97,3 +97,7 @@ p {
 .post-caption p{
     margin-bottom: 10px;
 }
+
+#like-btn:hover {
+    cursor: pointer;
+}
