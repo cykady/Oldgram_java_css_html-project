@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('font/SourceSansPro-Black.otf') format('truetype');
+    font-weight: bold;
+} 
+@font-face {
+    font-family: 'CustomFont';
+    src: url('font/SourceSansPro-Regular.otf') format('truetype');
+    font-weight: normal;
+    
+    
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #EDEDED;
+    font-family: "customFont"; 
+    font-weight: 700;
+
+}
+section {
+    margin-bottom: 20px;
+}
+.main-div {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    margin: 0 auto;
+    background: white;
+}
+.header-div{
+    display: inline-flex;
+    height: 34px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 183px;
+    padding: 16px 16px 17px 15px;
+    border-bottom: 1px solid #C6C6C6;
+
+}
+
+.post-header-div{
+    display: flex;
+    padding: 11px 17px 11px 16px;
+}
+.avatar-img {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.noraml-font-paragraph {
+    font-weight: normal;
+}
+
+.user-info-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    
+}
+.post-img {
+    width: 100%;
+    height: 100%;
+}
+#oldgram-logo-img {
+    width: 100%;
+    height: 120%;
+    border: 1px solid black;
+}
+.post-bottom-container{
+    display: flex;
+    flex-direction: column;
+    padding: 19px 19px 16px 0px;
+}
+.btn-container{
+    padding-bottom: 10px;
+}
+.post-caption{
+    margin-left: 13px;
+}
+.btn {
+    width: 45px;
+    height: 37px;
+    border: none;
+    background-color: #fff;
+}
+.btn-img{
+    width: 100%;
+    height: 100%;
+}
+.post-caption p{
+    margin-bottom: 10px;
+}
